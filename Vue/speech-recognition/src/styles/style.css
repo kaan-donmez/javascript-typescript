@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Exo+2:400,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Exo 2", sans-serif;
+  background-color: #fff;
+  color: white;
+}
+
+header {
+  font-size: 20px;
+  height: 50px;
+  background-color: #2c9631;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#appContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.noteItem {
+  color: #333;
+  width: 500px;
+  border-radius: 5px;
+  text-align: justify;
+  background-color: #f4f4f4;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #333;
+}
+.idContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.idContent span {
+  background-color: #333;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.speechContainer {
+  margin-bottom: 20px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+}
