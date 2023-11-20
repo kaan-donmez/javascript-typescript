@@ -1,0 +1,17 @@
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.darkTheme {
+  background-color: #000;
+  color: #fff;
+}
+
+.lightTheme {
+  background-color: #fff;
+  color: #000;
+}
