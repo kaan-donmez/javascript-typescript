@@ -1,0 +1,27 @@
+{
+  "name": "webframeworkcomparison",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "express": "node ./src/express.js",
+    "koa": "node ./src/koa.js",
+    "fastify": "node ./src/fastify.js",
+    "hapi": "node ./src/hapi.js",
+    "express-test": "autocannon -c 100 -d 5 -p 10 http://localhost:3000",
+    "koa-test": "autocannon -c 100 -d 5 -p 10 http://localhost:3000",
+    "fastify-test": "autocannon -c 100 -d 5 -p 10 http://localhost:3000",
+    "hapi-test": "autocannon -c 100 -d 5 -p 10 http://localhost:3000"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "@koa/router": "^12.0.1",
+    "express": "^4.18.2",
+    "fastify": "^4.25.2",
+    "koa": "^2.15.0"
+  },
+  "devDependencies": {
+    "autocannon": "^7.14.0"
+  }
+}
