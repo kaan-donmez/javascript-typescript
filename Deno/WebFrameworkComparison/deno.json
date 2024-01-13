@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "express": "deno run -A ./src/express.js",
+    "oak": "deno run -A ./src/oak.js",
+    "fastify": "deno run -A ./src/fastify.js",
+    "hono": "deno run -A ./src/hono.js",
+    "test" : "autocannon -c 100 -d 5 http://localhost:3000"
+  }
+}
