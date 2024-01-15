@@ -1,5 +1,5 @@
 {
-  "name": "webframeworkcomparison",
+  "name": "web-framework-comparison",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -9,7 +9,7 @@
     "koa": "node ./src/koa.js",
     "fastify": "node ./src/fastify.js",
     "hapi": "node ./src/hapi.js",
-    "test": "autocannon -c 100 -d 5 -p 10 http://localhost:3000"
+    "autocannon": "autocannon -c 100 -d 5 -p 10 http://localhost:3000"
   },
   "dependencies": {
     "@hapi/hapi": "^21.3.2",
