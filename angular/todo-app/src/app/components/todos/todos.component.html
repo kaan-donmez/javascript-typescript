@@ -1,0 +1,26 @@
+<div class="todos">
+  <form class="todoForm">
+    <input
+      type="text"
+      class="todoInput"
+      name="todoInput"
+      [(ngModel)]="todoInput"
+      (keydown.enter)="todoInput !== '' && addTodo()"
+      placeholder="Enter a new todo..."
+    />
+    <div class="todoButton" (click)="todoInput !== '' && addTodo()">
+      <i class="fa fa-plus" aria-hidden="true"></i>
+    </div>
+  </form>
+  <div
+    class="todo"
+    *ngFor="let todo of todos; let key = index"
+    class="todo {{ todo.completed ? 'done' : '' }}"
+  >
+    <div class="id">{{ key }}</div>
+    <div class="content" (click)="toogleDone(key)">{{ todo.content }}</div>
+    <div class="remove" (click)="removeTodo(key)">
+      <i class="fa fa-trash" aria-hidden="true"></i>
+    </div>
+  </div>
+</div>

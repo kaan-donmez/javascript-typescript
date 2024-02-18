@@ -1,0 +1,44 @@
+.todo {
+  display: flex;
+  padding: 10px 15px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.todo:nth-child(even) {
+  background-color: #eee;
+}
+
+.todo:last-of-type {
+  border-bottom: 0;
+}
+
+.todo .id {
+  flex: 1 1 50px;
+}
+
+.todo .content {
+  flex: 1 1 100%;
+}
+
+.todo.done .content {
+  text-decoration: line-through;
+}
+.todoForm {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+
+.todoInput {
+  flex: 1 1 100%;
+  margin-right: 10px;
+  height: 30px;
+  padding: 0 3px;
+}
+
+.todoButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
