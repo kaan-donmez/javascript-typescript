@@ -5,54 +5,62 @@ Hi there 👋 The projects I upload here are mostly for configuration purposes o
 I hope this repo is helpful and inspirational for you.
 
 Some recommendation
-- I recommend that you use Typescript in your project (both client-side and server-side), it would be better for avoiding type errors and easing your development.
-- I recommend that you write the test in your project it is so important.
+- you should use Typescript in your project (both client-side and server-side), it would be better for avoiding type errors and easing your development.
+- you should write tests to avoid mistakes.
+- you should provide observability to detect mistakes.
+- you should know Algorithms, Data structures, and Design Patterns.
+- you should know OOP, SOLID, DRY, KISS, etc.
+- you should know Architectures like microservice, monolithic, etc.
+- the most important thing is to be curious and ask yourself if your implementation is the best one.
 
 ### Client-side frameworks and libraries (Angular, React, Vue, Svelte (that is my favorite) etc.)
 
-#### I choose yarn package manager (maybe sometimes pnpn or npm you can see). you can try with these commands in terminal. ditto for meta frameworks like Analog, Next, Nuxt, Sveltekit
+I choose yarn package manager (maybe sometimes pnpn or npm you can see). you can try with these commands in terminal. ditto for meta frameworks like Analog, Next, Nuxt, Sveltekit
 
-to install packages
-```
-yarn
-```
-
-to start app
-```
-yarn dev
-```
+| Command  | Description         |
+| -------- | ------------------- |
+| yarn     | to install packages |
+| yarn dev | to start app        |
 
 
 ### Server side javascript runtime environment (node, bun, deno) commands. ditto for nest framework
 
-### Node
-```
-yarn
-```
-```
-yarn dev
-```
+<table>
+<tr>
+<th style="text-align:center">Node</th>
+<th style="text-align:center">Deno</th>
+<th style="text-align:center">Bun</th>
+<th style="text-align:center">Nest</th>
+</tr>
+<td>
 
-### Deno
-```
-deno dev
-```
+| Command  | Description         |
+| -------- | ------------------- |
+| yarn     | to install packages |
+| yarn dev | to start app        |
+</td>
+<td>
 
-### Bun
-```
-yarn
-```
-```
-yarn dev
-```
+| Command       | Description  |
+| ------------- | ------------ |
+| deno task     | task lists   |
+| deno task dev | to start app |
+</td>
+<td>
 
-### Nest
-```
-yarn
-```
-```
-yarn start
-```
+| Command       | Description         |
+| ------------- | ------------------- |
+| bun install   | to install packages |
+| bun run start | to start app        |
+</td>
+<td>
+
+| Command    | Description         |
+| ---------- | ------------------- |
+| yarn       | to install packages |
+| yarn start | to start app        |
+</td>
+</tr> </table>
 
 # Other things
 
