@@ -1,0 +1,20 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TextHighlight > should render the TextHighlight component with empty input value 1`] = `
+<DocumentFragment>
+  Summer
+</DocumentFragment>
+`;
+
+exports[`TextHighlight > should render the TextHighlight component with proper input value 1`] = `
+<DocumentFragment>
+  <strong>
+    Summ
+  </strong>
+  er 
+  <strong>
+    summ
+  </strong>
+  er
+</DocumentFragment>
+`;
