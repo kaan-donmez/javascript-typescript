@@ -28,8 +28,6 @@ I choose yarn package manager (maybe sometimes pnpn or npm you can see). you can
 <table>
 <tr>
 <th style="text-align:center">Node</th>
-<th style="text-align:center">Deno</th>
-<th style="text-align:center">Bun</th>
 <th style="text-align:center">Nest</th>
 </tr>
 <td>
@@ -39,6 +37,21 @@ I choose yarn package manager (maybe sometimes pnpn or npm you can see). you can
 | yarn     | to install packages |
 | yarn dev | to start app        |
 </td>
+<td>
+
+| Command    | Description         |
+| ---------- | ------------------- |
+| yarn       | to install packages |
+| yarn start | to start app        |
+</td>
+</tr> </table>
+
+
+<table>
+<tr>
+<th style="text-align:center">Deno</th>
+<th style="text-align:center">Bun</th>
+</tr>
 <td>
 
 | Command       | Description  |
@@ -52,13 +65,6 @@ I choose yarn package manager (maybe sometimes pnpn or npm you can see). you can
 | ------------- | ------------------- |
 | bun install   | to install packages |
 | bun run start | to start app        |
-</td>
-<td>
-
-| Command    | Description         |
-| ---------- | ------------------- |
-| yarn       | to install packages |
-| yarn start | to start app        |
 </td>
 </tr> </table>
 
